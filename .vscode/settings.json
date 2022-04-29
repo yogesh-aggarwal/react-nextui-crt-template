@@ -1,0 +1,9 @@
+{
+	"explorer.experimental.fileNesting.enabled": true,
+	"explorer.experimental.fileNesting.expand": false,
+	"explorer.experimental.fileNesting.patterns": {
+		"package.json": "package-lock.json,.eslintrc.json,tsconfig.json",
+		"*.tsx": "$(capture).css,$(capture).scss",
+		"index.tsx": "react-app-env.d.ts,reportWebVitals.ts,setupTests.ts"
+	}
+}
